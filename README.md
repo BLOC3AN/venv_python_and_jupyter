@@ -39,6 +39,9 @@
 ### Thêm virtualenv vào Jupyter bằng lệnh :
 
     python -m ipykernel install --user --name=Tên_env
+### Hoặc khởi chạy virtualenv trước rồi mở Jupyter :
+    source Tên_venv/bin/activate
+    jupyter lab
 ### Gỡ virtualenv trong Jupyter :
 #### Xem có bao nhiêu kernel : 
     jupyter kernelspec list
