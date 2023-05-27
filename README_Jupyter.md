@@ -6,7 +6,8 @@
     sudo apt-get install python3-pip
 
 ### Cài **virtualenv** bằng pip3 (hoặc `pip`)
-
+python -m ipykernel install --user --name=Tên_env
+EXP: python -m ipykernel install --user --name my_env
     sudo pip3 install virtualenv 
 
 ### Tạo môi trường ảo  
